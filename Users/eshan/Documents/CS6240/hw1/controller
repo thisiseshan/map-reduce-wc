@@ -1,0 +1,41 @@
+2024-01-16T00:28:42.641Z INFO Ensure step 1 jar file command-runner.jar
+2024-01-16T00:28:42.642Z INFO StepRunner: Created Runner for step 1
+INFO startExec 'hadoop jar /var/lib/aws/emr/step-runner/hadoop-jars/command-runner.jar hadoop-streaming -files s3://cs6240-demo-bucket-super-cool-bucket/input/mapper.py,s3://cs6240-demo-bucket-super-cool-bucket/input/reducer.py -mapper mapper.py -reducer reducer.py -input s3://cs6240-demo-bucket-super-cool-bucket/input/hhg.txt -output s3://cs6240-demo-bucket-super-cool-bucket/output'
+INFO Environment:
+  PATH=/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/opt/aws/puppet/bin/
+  SECURITY_PROPERTIES=/emr/instance-controller/lib/security.properties
+  HISTCONTROL=ignoredups
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  LANG=en_US.UTF-8
+  MAIL=/var/spool/mail/hadoop
+  LOGNAME=hadoop
+  PWD=/
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-0850946RE3RZ75Q6HXN/tmp
+  _=/etc/alternatives/jre/bin/java
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  SHELL=/bin/bash
+  QTINC=/usr/lib64/qt-3.3/include
+  USER=hadoop
+  HADOOP_LOGFILE=syslog
+  HOSTNAME=ip-172-31-91-243
+  QTDIR=/usr/lib64/qt-3.3
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-0850946RE3RZ75Q6HXN
+  EMR_STEP_ID=s-0850946RE3RZ75Q6HXN
+  QTLIB=/usr/lib64/qt-3.3/lib
+  HOME=/home/hadoop
+  SHLVL=1
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-0850946RE3RZ75Q6HXN/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-0850946RE3RZ75Q6HXN/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-0850946RE3RZ75Q6HXN
+INFO ProcessRunner started child process 26025
+2024-01-16T00:28:42.645Z INFO HadoopJarStepRunner.Runner: startRun() called for s-0850946RE3RZ75Q6HXN Child Pid: 26025
+INFO Synchronously wait child process to complete : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+INFO waitProcessCompletion ended with exit code 1 : hadoop jar /var/lib/aws/emr/step-runner/hadoop-...
+INFO total process run time: 140 seconds
+2024-01-16T00:31:03.541Z INFO Step created jobs: job_1705364862312_0001
+2024-01-16T00:31:03.541Z WARN Failed jobs ids:job_1705364862312_0001
+2024-01-16T00:31:03.541Z WARN Step failed with exitCode 1 and took 140 seconds

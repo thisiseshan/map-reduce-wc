@@ -1,0 +1,87 @@
+2024-01-16 00:28:50,845 INFO org.apache.hadoop.yarn.client.DefaultNoHARMFailoverProxyProvider (main): Connecting to ResourceManager at ip-172-31-91-243.ec2.internal/172.31.91.243:8032
+2024-01-16 00:28:51,018 INFO org.apache.hadoop.yarn.client.AHSProxy (main): Connecting to Application History server at ip-172-31-91-243.ec2.internal/172.31.91.243:10200
+2024-01-16 00:28:51,057 INFO org.apache.hadoop.yarn.client.DefaultNoHARMFailoverProxyProvider (main): Connecting to ResourceManager at ip-172-31-91-243.ec2.internal/172.31.91.243:8032
+2024-01-16 00:28:51,057 INFO org.apache.hadoop.yarn.client.AHSProxy (main): Connecting to Application History server at ip-172-31-91-243.ec2.internal/172.31.91.243:10200
+2024-01-16 00:28:51,426 INFO org.apache.hadoop.mapreduce.JobResourceUploader (main): Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/hadoop/.staging/job_1705364862312_0001
+2024-01-16 00:28:51,459 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://cs6240-demo-bucket-super-cool-bucket/input/mapper.py' for reading
+2024-01-16 00:28:52,345 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://cs6240-demo-bucket-super-cool-bucket/input/reducer.py' for reading
+2024-01-16 00:28:53,556 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2024-01-16 00:28:53,559 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev 049362b7cf53ff5f739d6b1532457f2c6cd495e8]
+2024-01-16 00:28:53,684 INFO org.apache.hadoop.mapred.FileInputFormat (main): Total input files to process : 1
+2024-01-16 00:28:53,779 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:16
+2024-01-16 00:28:54,094 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1705364862312_0001
+2024-01-16 00:28:54,094 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Executing with tokens: []
+2024-01-16 00:28:54,352 INFO org.apache.hadoop.conf.Configuration (main): resource-types.xml not found
+2024-01-16 00:28:54,353 INFO org.apache.hadoop.yarn.util.resource.ResourceUtils (main): Unable to find 'resource-types.xml'.
+2024-01-16 00:28:55,091 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1705364862312_0001
+2024-01-16 00:28:55,207 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-91-243.ec2.internal:20888/proxy/application_1705364862312_0001/
+2024-01-16 00:28:55,209 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1705364862312_0001
+2024-01-16 00:29:04,326 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1705364862312_0001 running in uber mode : false
+2024-01-16 00:29:04,327 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2024-01-16 00:29:33,601 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000003_0, Status : FAILED
+2024-01-16 00:29:33,622 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000007_0, Status : FAILED
+2024-01-16 00:29:33,624 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000006_0, Status : FAILED
+2024-01-16 00:29:33,629 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000002_0, Status : FAILED
+2024-01-16 00:29:33,630 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000010_0, Status : FAILED
+2024-01-16 00:29:34,647 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000011_0, Status : FAILED
+2024-01-16 00:29:43,697 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000001_0, Status : FAILED
+2024-01-16 00:29:43,698 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000013_0, Status : FAILED
+2024-01-16 00:29:43,700 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000005_0, Status : FAILED
+2024-01-16 00:29:44,707 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000012_0, Status : FAILED
+2024-01-16 00:29:44,709 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000000_0, Status : FAILED
+2024-01-16 00:29:44,713 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000008_0, Status : FAILED
+2024-01-16 00:29:44,715 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000009_0, Status : FAILED
+2024-01-16 00:29:44,716 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000004_0, Status : FAILED
+2024-01-16 00:29:57,799 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000014_0, Status : FAILED
+2024-01-16 00:29:58,805 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000007_1, Status : FAILED
+2024-01-16 00:29:58,808 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000003_1, Status : FAILED
+2024-01-16 00:29:58,810 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000015_0, Status : FAILED
+2024-01-16 00:30:00,821 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000002_1, Status : FAILED
+2024-01-16 00:30:00,823 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000006_1, Status : FAILED
+2024-01-16 00:30:16,917 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000005_1, Status : FAILED
+2024-01-16 00:30:17,929 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000013_1, Status : FAILED
+2024-01-16 00:30:17,930 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000012_1, Status : FAILED
+2024-01-16 00:30:18,942 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000008_1, Status : FAILED
+2024-01-16 00:30:18,944 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000011_1, Status : FAILED
+2024-01-16 00:30:18,945 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000000_1, Status : FAILED
+2024-01-16 00:30:18,946 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000001_1, Status : FAILED
+2024-01-16 00:30:19,964 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000010_1, Status : FAILED
+2024-01-16 00:30:22,983 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000009_1, Status : FAILED
+2024-01-16 00:30:23,992 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000014_1, Status : FAILED
+2024-01-16 00:30:23,993 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000004_1, Status : FAILED
+2024-01-16 00:30:23,994 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000007_2, Status : FAILED
+2024-01-16 00:30:26,012 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000003_2, Status : FAILED
+2024-01-16 00:30:27,019 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000015_1, Status : FAILED
+2024-01-16 00:30:51,242 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000002_2, Status : FAILED
+2024-01-16 00:30:51,244 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000005_2, Status : FAILED
+2024-01-16 00:30:54,260 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000010_2, Status : FAILED
+2024-01-16 00:30:54,261 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000001_2, Status : FAILED
+2024-01-16 00:30:55,269 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000006_2, Status : FAILED
+2024-01-16 00:30:55,274 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000009_2, Status : FAILED
+2024-01-16 00:30:55,276 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000011_2, Status : FAILED
+2024-01-16 00:30:55,278 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000014_2, Status : FAILED
+2024-01-16 00:30:55,281 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000004_2, Status : FAILED
+2024-01-16 00:30:56,288 INFO org.apache.hadoop.mapreduce.Job (main): Task Id : attempt_1705364862312_0001_m_000012_2, Status : FAILED
+2024-01-16 00:30:57,292 INFO org.apache.hadoop.mapreduce.Job (main):  map 44% reduce 100%
+2024-01-16 00:30:58,296 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2024-01-16 00:31:01,313 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1705364862312_0001 failed with state FAILED due to: Task failed task_1705364862312_0001_m_000007
+Job failed as tasks failed. failedMaps:1 failedReduces:0 killedMaps:0 killedReduces: 0
+
+2024-01-16 00:31:01,409 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 14
+	Job Counters 
+		Failed map tasks=45
+		Killed map tasks=15
+		Killed reduce tasks=7
+		Launched map tasks=54
+		Other local map tasks=38
+		Data-local map tasks=16
+		Total time spent by all maps in occupied slots (ms)=65609235
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=1457983
+		Total vcore-milliseconds taken by all map tasks=1457983
+		Total megabyte-milliseconds taken by all map tasks=2099495520
+	Map-Reduce Framework
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+2024-01-16 00:31:01,410 ERROR org.apache.hadoop.streaming.StreamJob (main): Job not successful!
